@@ -1,0 +1,4 @@
+把画布生成图片
+
+var canvas=document.getElementById("drawCanvas");
+var base64 = canvas.toDataURL('images/png');  

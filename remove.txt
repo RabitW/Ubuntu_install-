@@ -1,0 +1,3 @@
+openstack断电出现mysql奔溃
+mysql卸载
+apt-get --purge remove mysql-server -f && apt-get --purge remove mysql-client -f && apt-get --purge remove mysql-common -f && apt-get autoremove -f && apt-get autoclean && rm /etc/mysql/ -R && rm /var/lib/mysql/ -R

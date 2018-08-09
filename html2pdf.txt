@@ -1,0 +1,4 @@
+从网页导出PDF的报告
+
+
+xvfb-run wkhtmltopdf --margin-top 2cm  --footer-right '[page]/[topage]'  --javascript-delay 20000  http://www.baidu.com  /tmp.pdf

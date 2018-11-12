@@ -1,0 +1,11 @@
+解决冲突
+1、新建一个分支git checkout -b feature/test
+2、将现在的代码推到线上git push
+3、代码分支未在线上存在分支则git push --set-upstream origin feature/test
+4、再切回到git checkout dev
+5、拉dev的代码git pull
+6、切回到新分支git checkout feature/test
+7、将dev的放到缓存git rebase dev
+8、查看冲突的电，保留需要保留的代码，在新分支
+9、在新分支 git rebase --skip
+10、在新分支git push
